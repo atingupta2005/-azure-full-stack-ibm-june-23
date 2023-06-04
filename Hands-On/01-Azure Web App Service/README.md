@@ -19,23 +19,6 @@
     - Web App/Custom Domain
     - Click "+Add Custom Domain"
 
-  - Azure Web App - CORS
-    - Method of restring access to resources on a web when it is requested from another domain
-    - Refer 45-azure-web-app-cors-building-the-api
-      - Publish to Azure and open /api/Course
-    - Refer 46-azure-web-app-cors-implementation
-      - Change the URL of API Web app in demo.html
-      - Publish to Azure
-    - Once publish is done:
-      - Take URL of Web App Consumer and open - /demo.html
-      - Open Chrome/Developer Tools
-      - Open the URL
-      - Notice the error in Developer tools
-    - Resolve:
-      - Open API Web App/CORS
-      - Enable checkbox and in textbox, specify URL of Web App Consumer
-
-      -
   - Azure Web Apps - Deployment Slots
 
   - Azure App Service Plan - Linux
