@@ -1,5 +1,4 @@
 ## Cosmos DB
-- Quick primer on NoSQL Databases
 - Introduction to Cosmos DB
 - Azure Cosmos DB - SQL API
 - Partitioning in Azure Cosmos DB
