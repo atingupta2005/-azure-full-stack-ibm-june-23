@@ -1,12 +1,9 @@
-Open Powershell in Admin Mode
-
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+exit
 
 choco install git -y
 
-iwr -useb https://git.io/debloat|iex
-
-reboot
 choco install powershell-core -y
 choco install dotnetfx --pre -y
 choco install -y googlechrome -y
@@ -23,3 +20,4 @@ choco install visualstudio2022-workload-azure -y
 choco install notepadplusplus -y
 choco install 7zip -y
 choco install azcopy -y
+choco install dotnetcore -y
