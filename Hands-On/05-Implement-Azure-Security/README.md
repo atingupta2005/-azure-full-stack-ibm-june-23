@@ -15,6 +15,4 @@
   - Create app object, give rights to app object on key vault, create secret in key vault, update app object values in source code and run it
 
 - Managed Service Identity
-  - 231-managed-identities-example-on-not-using-managed-identies
-  - 232-managed-identities-using-identities
   - 233-azure-key-vault-secrets-using-managed-identity
