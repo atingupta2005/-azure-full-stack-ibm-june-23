@@ -2,3 +2,6 @@ Azure SDK:
 https://azure.microsoft.com/en-in/downloads/
 
 
+Azure Toolkit for Eclipse:
+https://learn.microsoft.com/en-us/azure/developer/java/toolkit-for-eclipse/installation
+
