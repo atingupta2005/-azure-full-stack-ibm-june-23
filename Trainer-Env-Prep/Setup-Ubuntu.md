@@ -12,7 +12,12 @@ sudo apt -y install openssl tree zip unzip
 - For each participant, we need to setup login accounts
 ```
 sudo groupadd docker
-for ((i=1;i<=50;i++)); do
+for ((i=1;i<=9;i++)); do
+	export username="u0$i"
+	sudo useradd -m -p "p2" $username;sudo usermod -aG sudo $username;sudo usermod -aG docker $username;echo $username:p | sudo /usr/sbin/chpasswd;sudo chown -R  $username:root /home/$username
+done
+
+for ((i=10;i<=50;i++)); do
 	export username="u$i"
 	sudo useradd -m -p "p2" $username;sudo usermod -aG sudo $username;sudo usermod -aG docker $username;echo $username:p | sudo /usr/sbin/chpasswd;sudo chown -R  $username:root /home/$username
 done
