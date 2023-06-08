@@ -5,3 +5,7 @@ https://azure.microsoft.com/en-in/downloads/
 Azure Toolkit for Eclipse:
 https://learn.microsoft.com/en-us/azure/developer/java/toolkit-for-eclipse/installation
 
+Dockerfile examples:
+https://github.com/atingupta2005/core-web-app-docker
+https://github.com/atingupta2005/java-docker-app
+https://github.com/atingupta2005/docker-file-node-app/blob/main/Dockerfile
