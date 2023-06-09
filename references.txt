@@ -9,3 +9,6 @@ Dockerfile examples:
 https://github.com/atingupta2005/core-web-app-docker
 https://github.com/atingupta2005/java-docker-app
 https://github.com/atingupta2005/docker-file-node-app/blob/main/Dockerfile
+
+Terraform Examples:
+https://github.com/hashicorp/terraform-provider-azurerm/tree/main
